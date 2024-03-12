@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height:5rem ;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5%;
+    cursor: pointer;
+    
+}
+
+.choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 175px;
+   width: 175px;
+   border-radius: 50%;
+}
+
+.choice:hover{
+   background-color: #081b31 ;
+   
+ }
+
+img{
+    height: 165px;
+    width: 165px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem ;
+    margin-top: 5rem;
+    gap : 5rem;
+}
+
+#USer-score,#comp-score{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.msg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+#msg{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height:5rem ;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-bottom: 1%;
+}
+
+#Restbtn{
+    background-color: #081b31;
+    color: white;
+    height: 3rem;
+   cursor: pointer;
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#Restbtn:hover{
+    background-color: #0a6411;
+    color: white;
+   
+}
+
